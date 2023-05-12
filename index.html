@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bem vindo</title>
+    
+</head>
+<body>
+    <div class="main_login">
+        <div class="left_login">
+            <h1>Acesse o nosso fórum<br>E venha conversar com a gente</h1>
+            <img src="backtofuture.svg" class="left-login-image" alt="backtofuture">
+
+        </div>
+        <form action="processa_usuario.php" method="post">
+        <div class="right_login">
+             <div class="card-login">
+                
+                <div class="textfield">
+                    <label for="user">Usuário</label>
+                    <input type="text" name="user" placeholder="Email ou telefone">
+                </div>
+                <div class="textfield">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Senha">
+                </div>
+                <input type="submit" class="btLogin" value="Logar"></input>
+
+             </div>   
+        </div>
+        </form>
+    </div>
+</body>
+</html>
